@@ -3,76 +3,64 @@
 
 ### **Overview**
 
-UMetav VersaPort is a multifunctional and high-performance USB-to-serial tool designed to meet diverse communication scenarios and development needs. Based on the reliable **CH340 chip**, it not only supports standard USB-to-serial functions but can also be flexibly reconfigured to enable hardware flow control mode. Specially optimized for **ESP32 firmware flashing**, this tool offers developers an efficient and convenient experience, making it the ideal choice for serial debugging, embedded development, and industrial applications.
+UMetav VersaPort is a multifunctional, high-performance USB to serial tool designed to meet various communication scenarios and development needs. It is based on the stable-performing **CH340 chip** and not only supports standard USB to serial functionality but also optimizes the **firmware burning process for ESP32 and ESP8266**, providing developers with an efficient and convenient experience. It is an ideal choice for serial debugging, embedded development, and industrial applications.
 
 <div align="center">
   <img src="./resources/overview.png" alt="Overview" width="600">
-  <p><em>Figure 1: Overview of the VersaPort serial tool</em></p>
+  <p><em>Figure 1: Overview of VersaPort Serial Tool</em></p>
 </div>
 
-### **Key Features**
+### **Main Features**
 
-1. **USB-to-Serial Functionality**
+1. **USB to Serial Functionality**
     
-    UMetav VersaPort is configured by default as a standard USB-to-serial tool, supporting most device communication debugging with simple and convenient operation.
+    UMetav VersaPort is configured by default as a standard USB to serial tool, supporting communication debugging for the vast majority of devices, with simple and convenient operations.
     
-2. **Hardware Flow Control Support**
+2. **ESP32 and ESP8266 Firmware Burning Support**
     
-    By adjusting the hardware parameters, VersaPort can enable communication with RTS/CTS signals for applications requiring high stability, such as industrial scenarios.
-    
-3. **ESP32 Firmware Flashing Support**
-    
-    Optimized for ESP32 development, it features a built-in one-click firmware flashing function, eliminating complex configuration steps and providing an efficient development experience.
+    Optimized specifically for ESP32 and ESP8266 development, it features a built-in one-click firmware burning function, eliminating cumbersome setups and providing a fast, efficient development experience.
     
     <div align="center">
-        <img src="./resources/front.png" alt="Aries Plus Front View" width="600">
-        <p><em>Figure 2: Front view of the VersaPort serial tool</em></p>
+        <img src="./resources/front.png" alt="Front View" width="600">
+        <p><em>Figure 2: Front View of VersaPort Serial Tool</em></p>
     </div>
-    
-### **Three Primary Operating Modes**
 
-1. **Standard USB-to-Serial Mode**
+### **Three Main Operating Modes**
+
+1. **Standard USB to Serial Mode**
     
-    The default operating mode suitable for everyday serial communication debugging, compatible with a wide range of devices and systems.
+    The default operating mode suitable for everyday serial communication debugging, supporting a wide range of devices and systems.
     
-2. **USB-to-Serial Mode with Hardware Flow Control**
+2. **ESP32 and ESP8266 Firmware Burning Mode**
     
-    By adjusting the hardware configuration, VersaPort can support RTS/CTS flow control signals, enhancing communication stability and meeting industrial-grade communication needs.
-    
-3. **ESP32 Firmware Flashing Mode**
-    
-    Optimized for ESP32 firmware downloads, providing a one-click operation for efficient flashing, saving developers time and improving productivity.
-        
+    This mode optimizes the firmware download process for ESP32 and ESP8266, providing an efficient one-click burning function that saves time for embedded developers and enhances efficiency.
+
     <div align="center">
         <img src="./resources/back.png" alt="Back View" width="600">
-        <p><em>Figure 3: Back view of the VersaPort serial tool</em></p>
+        <p><em>Figure 3: Back View of VersaPort Serial Tool</em></p>
     </div>
-### **Product Highlights**
 
-- **Multi-Mode Support**: UMetav VersaPort supports three modes: standard USB-to-serial, hardware flow control, and ESP32 firmware flashing, making it flexible enough to meet various use cases.
-- **High Customizability**: Provides detailed documentation to help users adjust hardware configurations easily for a highly customized experience.
-- **Ease of Use**: Plug-and-play, compatible with major operating systems, and requires no complicated setups for quick deployment.
-- **Reliable Performance**: Powered by the CH340 chip, VersaPort ensures stable and reliable data transmission, making it suitable for a variety of communication scenarios.
-- **Development Optimization**: Integrated with ESP32 flashing capabilities, it simplifies the process, enabling faster and smoother development workflows.
+### **Tool Highlights**
 
-### **Common Use Cases**
+- **Multi-Mode Support**: UMetav VersaPort supports both standard USB to serial and firmware download functions for ESP32 and ESP8266, flexibly meeting diverse application needs.
+- **High Expandability**: Documentation is provided to support users in adjusting hardware configurations, easily achieving high customization.
+- **User-Friendly**: Plug and play, compatible with mainstream operating systems, and ready for quick use without complex setups.
+- **Reliable Performance**: Based on the CH340 chip, VersaPort provides stable and reliable data transmission performance suitable for various communication scenarios.
+- **Development Optimization**: Integrated firmware burning functions for ESP32 and ESP8266 eliminate cumbersome steps, making the development process more efficient and smooth.
+
+### **Typical Application Scenarios**
 
 1. **Serial Device Communication Debugging**
     
-    As a standard USB-to-serial tool, VersaPort is compatible with various serial devices, making communication debugging straightforward and efficient.
+    As a standard USB to serial tool, VersaPort adapts to various serial devices, easily facilitating communication debugging between devices.
     
-2. **Industrial Communication and Control**
+2. **Embedded Development and Debugging**
     
-    By enabling hardware flow control mode, VersaPort provides high stability and reliability for communication in industrial applications.
-    
-3. **Embedded Development and Debugging**
-    
-    Specifically optimized for ESP32, the built-in firmware flashing function offers embedded developers a convenient and highly efficient tool.
-    
+    The firmware burning function optimized for ESP32 and ESP8266 provides convenient and efficient tool support for embedded developers.
 
 ### **Conclusion**
 
-UMetav VersaPort is a USB-to-serial tool that combines **flexibility, reliability, and efficiency**. With support for standard serial communication, hardware flow control, and ESP32 firmware flashing, it meets the demands of complex development and debugging tasks. The tool provides open configuration documentation, enabling users to adjust hardware settings for specific scenarios and further enhance performance. Whether for everyday debugging, industrial applications, or embedded development, UMetav VersaPort will be your reliable assistant, bringing unprecedented convenience and efficiency to your work!
+UMetav VersaPort is a USB to serial tool that integrates **flexibility, reliability, and efficiency**. It combines the functionalities of standard serial communication with firmware burning for ESP32 and ESP8266, capable of meeting various complex development and debugging needs. The tool provides open configuration documentation, allowing users to adjust hardware parameters for specific scenarios to further enhance performance. Whether for daily debugging, industrial applications, or embedded development, UMetav VersaPort will become your reliable assistant, bringing unprecedented convenience and efficiency to your work!
 
 
 ## **Resources and Support**
@@ -81,4 +69,3 @@ UMetav VersaPort is a USB-to-serial tool that combines **flexibility, reliabilit
     - Open hours: Daily from 8 AM to 1 AM (Beijing Time).
 - **QQ Group**: 786239575
 - **Technical Support Email**: [tech@umetav.cn](mailto:tech@umetav.cn)
-
