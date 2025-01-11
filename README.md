@@ -25,7 +25,7 @@ UMetav VersaPort is a multifunctional, high-performance USB to serial tool desig
         <p><em>Figure 2: Front View of VersaPort Serial Tool</em></p>
     </div>
 
-### **Three Main Operating Modes**
+### **The Main Operating Modes**
 
 1. **Standard USB to Serial Mode**
     
